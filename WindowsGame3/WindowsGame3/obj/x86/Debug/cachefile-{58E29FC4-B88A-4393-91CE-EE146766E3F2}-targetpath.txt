@@ -1,0 +1,34 @@
+Content\duckfromabove.xnb
+Content\duckHair.xnb
+Content\yellowBall.xnb
+Content\SpriteFont.xnb
+Content\Image1.xnb
+Content\enemysprite.xnb
+Content\music.xnb
+Content\music.wma
+Content\Image2.xnb
+Content\ClearBlock.xnb
+Content\gun1.xnb
+Content\slowblock.xnb
+Content\Heart.xnb
+Content\speedBlock.xnb
+Content\dogpic.xnb
+Content\Realdoggy.xnb
+Content\duckBackGround.xnb
+Content\gun2.xnb
+Content\gun3.xnb
+Content\2Guns.xnb
+Content\2shot.xnb
+Content\3shot.xnb
+Content\5shot.xnb
+Content\Snake.xnb
+Content\seal.xnb
+Content\grasstexter.xnb
+Content\KPM Music - Into The Fire.xnb
+Content\KPM Music - Into The Fire.wma
+Content\Great music for gaming (2 hours).xnb
+Content\Great music for gaming (2 hours).wma
+Content\Dog Howling At Moon-SoundBible.com-1369876823.xnb
+Content\Quack Quack-SoundBible.com-620056916.xnb
+Content\Two Snake Hiss Sound Effects (online-audio-converter.com).xnb
+Content\Pig sound effect pig in a mood squeal sounds (online-audio-converter.com).xnb

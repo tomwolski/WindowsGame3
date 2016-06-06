@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>duckfromabove.png</Source>
+      <Name>duckfromabove</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\tommy wolski\documents\visual studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\duckfromabove.xnb</Output>
+      <Time>2016-04-03T18:44:39.9249096-04:00</Time>
+    </Item>
+    <Item>
+      <Source>duckHair.png</Source>
+      <Name>duckHair</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\duckHair.xnb</Output>
+      <Time>2016-04-30T14:30:37.6395426-04:00</Time>
+    </Item>
+    <Item>
+      <Source>yellowBall.png</Source>
+      <Name>yellowBall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\yellowBall.xnb</Output>
+      <Time>2016-03-25T20:21:26.8561613-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont.spritefont</Source>
+      <Name>SpriteFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\SpriteFont.xnb</Output>
+      <Time>2016-04-18T16:08:00.9621273-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Image1.png</Source>
+      <Name>Image1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\Image1.xnb</Output>
+      <Time>2016-04-30T19:47:28.2738887-04:00</Time>
+    </Item>
+    <Item>
+      <Source>enemysprite.PNG</Source>
+      <Name>enemysprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\enemysprite.xnb</Output>
+      <Time>2016-04-30T14:30:38.1225703-04:00</Time>
+    </Item>
+    <Item>
+      <Source>music.mp3</Source>
+      <Name>music</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\music.xnb</Output>
+      <Extra>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\music.wma</Extra>
+      <Time>2016-03-21T21:54:16.0754274-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Image2.png</Source>
+      <Name>Image2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\Image2.xnb</Output>
+      <Time>2016-03-22T14:17:32.2027858-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ClearBlock.png</Source>
+      <Name>ClearBlock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\ClearBlock.xnb</Output>
+      <Time>2016-04-03T18:22:09.1786514-04:00</Time>
+    </Item>
+    <Item>
+      <Source>gun1.png</Source>
+      <Name>gun1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\gun1.xnb</Output>
+      <Time>2016-03-25T18:07:06.762396-04:00</Time>
+    </Item>
+    <Item>
+      <Source>slowblock.png</Source>
+      <Name>slowblock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\slowblock.xnb</Output>
+      <Time>2016-03-25T19:34:14.9601861-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Heart.png</Source>
+      <Name>Heart</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\Heart.xnb</Output>
+      <Time>2016-03-25T20:12:04.4479934-04:00</Time>
+    </Item>
+    <Item>
+      <Source>speedBlock.png</Source>
+      <Name>speedBlock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\speedBlock.xnb</Output>
+      <Time>2016-03-25T20:39:52.3053893-04:00</Time>
+    </Item>
+    <Item>
+      <Source>dogpic.png</Source>
+      <Name>dogpic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\dogpic.xnb</Output>
+      <Time>2016-04-03T17:40:04.1352271-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Realdoggy.png</Source>
+      <Name>Realdoggy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\Realdoggy.xnb</Output>
+      <Time>2016-04-03T17:48:26.4909602-04:00</Time>
+    </Item>
+    <Item>
+      <Source>duckBackGround.jpg</Source>
+      <Name>duckBackGround</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\duckBackGround.xnb</Output>
+      <Time>2016-04-17T14:31:05.9246346-04:00</Time>
+    </Item>
+    <Item>
+      <Source>gun2.png</Source>
+      <Name>gun2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\gun2.xnb</Output>
+      <Time>2016-04-05T17:27:56.7516582-04:00</Time>
+    </Item>
+    <Item>
+      <Source>gun3.png</Source>
+      <Name>gun3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\gun3.xnb</Output>
+      <Time>2016-04-05T18:11:51.2393423-04:00</Time>
+    </Item>
+    <Item>
+      <Source>2Guns.png</Source>
+      <Name>2Guns</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\2Guns.xnb</Output>
+      <Time>2016-04-17T13:26:43.1196948-04:00</Time>
+    </Item>
+    <Item>
+      <Source>2shot.png</Source>
+      <Name>2shot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\2shot.xnb</Output>
+      <Time>2016-04-05T19:56:59.305143-04:00</Time>
+    </Item>
+    <Item>
+      <Source>3shot.png</Source>
+      <Name>3shot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\3shot.xnb</Output>
+      <Time>2016-04-05T20:06:27.5076423-04:00</Time>
+    </Item>
+    <Item>
+      <Source>5shot.png</Source>
+      <Name>5shot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 0, 255, 0</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\5shot.xnb</Output>
+      <Time>2016-04-05T20:34:16.5201044-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Snake.png</Source>
+      <Name>Snake</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\Snake.xnb</Output>
+      <Time>2016-04-30T19:53:26.043352-04:00</Time>
+    </Item>
+    <Item>
+      <Source>seal.png</Source>
+      <Name>seal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\seal.xnb</Output>
+      <Time>2016-04-17T17:03:06.8613224-04:00</Time>
+    </Item>
+    <Item>
+      <Source>grasstexter.png</Source>
+      <Name>grasstexter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\grasstexter.xnb</Output>
+      <Time>2016-04-30T19:41:25.671149-04:00</Time>
+    </Item>
+    <Item>
+      <Source>KPM Music - Into The Fire.mp3</Source>
+      <Name>KPM Music - Into The Fire</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\KPM Music - Into The Fire.xnb</Output>
+      <Extra>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\KPM Music - Into The Fire.wma</Extra>
+      <Time>2016-05-01T17:02:50.2318658-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Great music for gaming (2 hours).mp3</Source>
+      <Name>Great music for gaming (2 hours)</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\Great music for gaming (2 hours).xnb</Output>
+      <Extra>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\Great music for gaming (2 hours).wma</Extra>
+      <Time>2016-05-01T17:14:10.2997635-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Dog Howling At Moon-SoundBible.com-1369876823.wav</Source>
+      <Name>Dog Howling At Moon-SoundBible.com-1369876823</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\Dog Howling At Moon-SoundBible.com-1369876823.xnb</Output>
+      <Time>2016-05-20T19:03:30.0738553-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Quack Quack-SoundBible.com-620056916.wav</Source>
+      <Name>Quack Quack-SoundBible.com-620056916</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\Quack Quack-SoundBible.com-620056916.xnb</Output>
+      <Time>2016-05-20T19:10:16.3430926-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Two Snake Hiss Sound Effects (online-audio-converter.com).wav</Source>
+      <Name>Two Snake Hiss Sound Effects (online-audio-converter.com)</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\Two Snake Hiss Sound Effects (online-audio-converter.com).xnb</Output>
+      <Time>2016-05-20T19:39:16.3912469-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Pig sound effect pig in a mood squeal sounds (online-audio-converter.com).wav</Source>
+      <Name>Pig sound effect pig in a mood squeal sounds (online-audio-converter.com)</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\Pig sound effect pig in a mood squeal sounds (online-audio-converter.com).xnb</Output>
+      <Time>2016-05-20T19:54:34.2127433-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{58E29FC4-B88A-4393-91CE-EE146766E3F2}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-02-09T15:07:45.2598242-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
