@@ -14,8 +14,39 @@ namespace WindowsGame3
     class items : Obj
     {
  
-        public static List<Obj> objList = new List<Obj>();
-        
+        public static List<Obj> objList = new List<Obj>(); // list of all the objects for items
+
+
+        /**/
+        /*
+             Init
+
+        NAME
+            Init -  initialize all the game variables before the game runs
+
+        SYNOPSIS
+ 
+     
+
+        DESCRIPTION
+               Allows the game to perform any initialization it needs to before starting to run.
+               This is where it can query for any required services and load any non-graphic
+               related content.  Calling base.Initialize will enumerate through any components
+               and initialize them as well. Here we initialize the all the games objects and that 
+               are going to be used throughout the game. Depending on which object is created first
+               thats how they are going to be layered on the screen when overlapping.
+ 
+
+        AUTHOR
+
+                Thomas Wolski 
+
+        DATE
+
+                8:00pm 8/15/2016
+
+        */
+        /**/
         public static void Init()
         {
 
@@ -133,7 +164,7 @@ namespace WindowsGame3
             objList.Add(new wall(new Vector2(800, 32)));
 
 
-//-- bottem wall
+//-- bottom wall
             objList.Add(new wall(new Vector2(-768, 800)));
             objList.Add(new wall(new Vector2(-736, 800)));
             objList.Add(new wall(new Vector2(-704, 800)));
@@ -185,15 +216,7 @@ namespace WindowsGame3
             objList.Add(new wall(new Vector2(32, 800)));
             objList.Add(new wall(new Vector2(0, 800)));
 
-
-            //objList.Add(new speedBlock(new Vector2(300, 100)));
-            Random r = new Random();
-
-
-            int newXX = r.Next(-750, 750);
-            int newYY = r.Next(0, 750);
-
-
+ 
             for (int i = 0; i < 100; i++)
             {
                
@@ -202,7 +225,7 @@ namespace WindowsGame3
                 objList.Add(o);
             }
 
-
+            // declares the spawning objects that spawn the other objects
             objList.Add(new Spawning(new Vector2(0, 0)));
             objList.Add(new Spawning2(new Vector2(0, 0)));
             objList.Add(new Spawning3(new Vector2(0, 0)));
@@ -210,14 +233,28 @@ namespace WindowsGame3
             objList.Add(new SpawnHeart(new Vector2(0, 0)));
             objList.Add(new SpawningSpeedBlock(new Vector2(0, 0)));
             objList.Add(new SpawnSlowBlock(new Vector2(0, 0)));
-            objList.Add(new SpawnSlowBlock(new Vector2(0, 0)));
             objList.Add(new SpawnGun1(new Vector2(0, 0)));
             objList.Add(new SpawnGun2(new Vector2(0, 0)));
             objList.Add(new SpawnGun3(new Vector2(0, 0)));
             objList.Add(new SpawnGun4(new Vector2(0, 0)));
             objList.Add(new SpawnGun5(new Vector2(0, 0)));
+            objList.Add(new SpawnGun6(new Vector2(0, 0)));
 
+            // adds the specific amount of objects to the object list
+            for (int i = 0; i < 10; i++)
+            {
 
+                speedBlock sp = new speedBlock(new Vector2(0, 0));
+                sp.alive = false;
+                objList.Add(sp);
+            }
+            for (int i = 0; i < 1; i++)
+            {
+
+                Gun4ShootFive g6 = new Gun4ShootFive(new Vector2(0, 0));
+                g6.alive = false;
+                objList.Add(g6);
+            }
             for (int i = 0; i < 1; i++)
             {
 
@@ -258,6 +295,9 @@ namespace WindowsGame3
                 objList.Add(g1);
             }
 
+
+
+
             for (int i = 0; i < 20; i++)
             {
 
@@ -265,15 +305,7 @@ namespace WindowsGame3
                 sl.alive = false;
                 objList.Add(sl);
             }
-            for (int i = 0; i < 2; i++)
-            {
-
-                speedBlock sp = new speedBlock(new Vector2(0, 0));
-                sp.alive = false;
-                objList.Add(sp);
-            }
-
-            for (int i = 0; i < 160; i++)
+            for (int i = 0; i < 300; i++)
             {
 
               Enemy e = new Enemy(new Vector2(0, 0));
@@ -281,7 +313,7 @@ namespace WindowsGame3
                 objList.Add(e);
             }
 
-            for (int i = 0; i < 160; i++)
+            for (int i = 0; i < 300; i++)
             {
 
                 Enemy2 e2 = new Enemy2(new Vector2(0, 0));
@@ -289,7 +321,7 @@ namespace WindowsGame3
                 objList.Add(e2);
             }
 
-            for (int i = 0; i < 160; i++)
+            for (int i = 0; i < 300; i++)
             {
 
                 Enemy3 e3 = new Enemy3(new Vector2(0, 0));
@@ -319,33 +351,63 @@ namespace WindowsGame3
 
 
         }
-        public override void move()
-        {
-
-
-            base.move();
-
-        }
+ 
 
         
         // forced to make stuff static public for reset
+
+        /**/
+        /*
+        wave1
+
+        NAME
+
+                Reset - A function that is called to reset all necessary variables in order for the game to be played again.
+
+        SYNOPSIS
+ 
+
+        DESCRIPTION
+
+                This function uses the arguments that are creating though out the entire project to determine what has to be set back to default before
+                changing the game-state to game. It takes every object created in the object list and restores there default values based on how they were declared
+                After this function is used to set the score of the top 10 scores after the game come to an end making sure they are in the scores are in the correct order.
+    
+
+        AUTHOR
+
+                Thomas Wolski 
+
+        DATE
+
+                8:10pm 8/10/2016
+
+        */
+        /**/
+
         public static void Reset()
         {
+            
             foreach (Obj o in objList)
             {
                 
                 if (o.GetType() == typeof(Enemy) && o.alive)
                 {
                     o.alive = false;
+                   
                     Enemy.enemeyspd1 = 1;
                     Enemy.hitTime1 = 60;
                     Enemy.hitTimer1 = 0;
                   
-                    Spawning.numberofGuys = 3;
+                    Spawning.numberofGuys = 1;
                     Spawning.spawnTime1 = 60 * 1;
                     Spawning.spawnTimer1 = 0;
                     Spawning.waveTime1 = 600 * 1;
                     Spawning.waveTimer1 = 0;
+
+                    Spawning.totalSpawned = 0;
+                    Spawning.spawncheck1 = false;
+                   
               
                 }
 
@@ -353,32 +415,41 @@ namespace WindowsGame3
                 {
 
                     o.alive = false;
-
+                    
                     Enemy2.enemeyspd2 = 0.5f;
                     Enemy2.hitTime2 = 60;
                     Enemy2.hitTimer2 = 0;
 
-                    Spawning2.numberofGuys2 = -2;
+                    Spawning2.numberofGuys2 = 1;
                     Spawning2.spawnTime2 = 60 * 1;
                     Spawning2.spawnTimer2 = 0;
                     Spawning2.waveTime2 = 600 * 1;
                     Spawning2.waveTimer2 = 0;
+
+                    Spawning2.totalSpawned2 = 0;
+                    Spawning2.spawncheck2 = false;
+                   
 
                 }
 
                 if (o.GetType() == typeof(Enemy3) && o.alive)
                 {
                     o.alive = false;
-
+                   
                     Enemy3.enemeyspd3 = 1.5f;
                     Enemy3.hitTime3 = 60;
                     Enemy3.hitTimer3 = 0;
 
-                    Spawning3.numberofGuys3 = -4;
+                    Spawning3.numberofGuys3 = 0;
                     Spawning3.spawnTime3 = 60 * 1;
                     Spawning3.spawnTimer3 = 0;
                     Spawning3.waveTime3 = 600 * 1;
                     Spawning3.waveTimer3 = 0;
+
+                    Spawning3.totalSpawned3 = 0;
+                    Spawning3.spawncheck3 = false;
+                     
+                    
 
                 }
                 if (o.GetType() == typeof(Heart) && o.alive)
@@ -396,21 +467,155 @@ namespace WindowsGame3
                 {
                     o.alive = false;
                 }
+                if (o.GetType() == typeof(speedBlock) && o.alive)
+                {
+                    o.alive = false;
+                }
 
                 if (o.GetType() == typeof(Bullet) && o.alive)
                 {
                     o.alive = false;
                 }
 
+                if (o.GetType() == typeof(gun1) && o.alive)
+                {
+                    o.alive = false;
+                }
+
+                if (o.GetType() == typeof(gun2) && o.alive)
+                {
+                    o.alive = false;
+                }
+
+                if (o.GetType() == typeof(gun3) && o.alive)
+                {
+                    o.alive = false;
+                }
+
+                if (o.GetType() == typeof(Gun4ShootFive) && o.alive)
+                {
+                    o.alive = false;
+                }
+
+                if (o.GetType() == typeof(Gun4ShootThree) && o.alive)
+                {
+                    o.alive = false;
+                }
+                if (o.GetType() == typeof(Gun4ShootTwo) && o.alive)
+                {
+                    o.alive = false;
+                }
+                // set the high score
             }
-            if (ScoreView.score1 < Game1.KillCount)
+            if (ScoreView.score1 < Game1.KillCount) // first place
             {
+
+                ScoreView.score10 = ScoreView.score9;
+                ScoreView.score9 = ScoreView.score8;
+                ScoreView.score8 = ScoreView.score7;
+                ScoreView.score7 = ScoreView.score6;
+                ScoreView.score6 = ScoreView.score5;
+                ScoreView.score5 = ScoreView.score4;
+                ScoreView.score4 = ScoreView.score3;
+                ScoreView.score3 = ScoreView.score2;
+                ScoreView.score2 = ScoreView.score1;
                 ScoreView.score1 = Game1.KillCount;
+                
+            }
+
+            else if (ScoreView.score2 < Game1.KillCount) // 2nd
+            {
+
+                ScoreView.score10 = ScoreView.score9;
+                ScoreView.score9 = ScoreView.score8;
+                ScoreView.score8 = ScoreView.score7;
+                ScoreView.score7 = ScoreView.score6;
+                ScoreView.score6 = ScoreView.score5;
+                ScoreView.score5 = ScoreView.score4;
+                ScoreView.score4 = ScoreView.score3;
+                ScoreView.score3 = ScoreView.score2;
+                ScoreView.score2 = Game1.KillCount;
+            }
+            else if (ScoreView.score3 < Game1.KillCount)//3rd
+            {
+
+                ScoreView.score10 = ScoreView.score9;
+                ScoreView.score9 = ScoreView.score8;
+                ScoreView.score8 = ScoreView.score7;
+                ScoreView.score7 = ScoreView.score6;
+                ScoreView.score6 = ScoreView.score5;
+                ScoreView.score5 = ScoreView.score4;
+                ScoreView.score4 = ScoreView.score3;
+                ScoreView.score3 = Game1.KillCount;
+            }
+            else if (ScoreView.score4 < Game1.KillCount)//4th
+            {
+
+                ScoreView.score10 = ScoreView.score9;
+                ScoreView.score9 = ScoreView.score8;
+                ScoreView.score8 = ScoreView.score7;
+                ScoreView.score7 = ScoreView.score6;
+                ScoreView.score6 = ScoreView.score5;
+                ScoreView.score5 = ScoreView.score4;
+                ScoreView.score4 = Game1.KillCount;
+            }
+
+            else if (ScoreView.score5 < Game1.KillCount)//5th
+            {
+
+                ScoreView.score10 = ScoreView.score9;
+                ScoreView.score9 = ScoreView.score8;
+                ScoreView.score8 = ScoreView.score7;
+                ScoreView.score7 = ScoreView.score6;
+                ScoreView.score6 = ScoreView.score5;
+                ScoreView.score5 = Game1.KillCount;
+            }
+
+            else if (ScoreView.score6 < Game1.KillCount) //6th
+            {
+
+                ScoreView.score10 = ScoreView.score9;
+                ScoreView.score9 = ScoreView.score8;
+                ScoreView.score8 = ScoreView.score7;
+                ScoreView.score7 = ScoreView.score6;
+                ScoreView.score6 = Game1.KillCount;
+            }
+
+            else if (ScoreView.score7 < Game1.KillCount) // 7th
+            {
+
+                ScoreView.score10 = ScoreView.score9;
+                ScoreView.score9 = ScoreView.score8;
+                ScoreView.score8 = ScoreView.score7;
+                ScoreView.score7 = Game1.KillCount;
+            }
+            else if (ScoreView.score8 < Game1.KillCount)// 8th
+            {
+
+                ScoreView.score10 = ScoreView.score9;
+                ScoreView.score9 = ScoreView.score8;
+                ScoreView.score8 = Game1.KillCount;
+            }
+
+            else if (ScoreView.score9 < Game1.KillCount)//9th
+            {
+
+                ScoreView.score10 = ScoreView.score9;
+                ScoreView.score9 = Game1.KillCount;
+            }
+            else if (ScoreView.score10 < Game1.KillCount)// last
+            {
+                ScoreView.score10 = Game1.KillCount;
             }
 
             Game1.KillCount = 0;
             Game1.timer = 0;
 
+            Enemy.DogsKilled =  0;
+            Enemy2.FudKilled =  0;
+            Enemy3.SnakesKilled = 0;
+
+            BoxSpawning.numberofGuys = 1;
 
             MainPlayer.Player.alive = true;
             MainPlayer.bspd = MainPlayer.Standeredbspd;
@@ -425,12 +630,12 @@ namespace WindowsGame3
             MainPlayer.shootfive = false;
             MainPlayer.Player.position = new Vector2(150, 400);
         }
-
+        // Resets the main players max health after he dies
         public static void Restart()
         {
 
             MainPlayer.Player.hp = MainPlayer.maxhp;
-            
+             
             
         }
 

@@ -194,13 +194,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="seal.png">
-      <Name>seal</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="grasstexter.png">
       <Name>grasstexter</Name>
       <Importer>TextureImporter</Importer>
@@ -222,31 +215,38 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dog Howling At Moon-SoundBible.com-1369876823.wav">
-      <Name>Dog Howling At Moon-SoundBible.com-1369876823</Name>
+    <Compile Include="DogSound.wav">
+      <Name>DogSound</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Quack Quack-SoundBible.com-620056916.wav">
-      <Name>Quack Quack-SoundBible.com-620056916</Name>
+    <Compile Include="DuckSound.wav">
+      <Name>DuckSound</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Two Snake Hiss Sound Effects %28online-audio-converter.com%29.wav">
-      <Name>Two Snake Hiss Sound Effects %28online-audio-converter.com%29</Name>
+    <Compile Include="Snakesound.wav">
+      <Name>Snakesound</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pig sound effect pig in a mood squeal sounds %28online-audio-converter.com%29.wav">
-      <Name>Pig sound effect pig in a mood squeal sounds %28online-audio-converter.com%29</Name>
+    <Compile Include="PigSound.wav">
+      <Name>PigSound</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PAUSEING.PNG">
+      <Name>PAUSEING</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />

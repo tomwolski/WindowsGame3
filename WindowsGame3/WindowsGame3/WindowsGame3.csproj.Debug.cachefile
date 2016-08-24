@@ -1,10 +1,8 @@
 Content\duckfromabove.xnb
 Content\duckHair.xnb
 Content\yellowBall.xnb
-Content\SpriteFont.xnb
 Content\Image1.xnb
 Content\enemysprite.xnb
-Content\music.xnb
 Content\Image2.xnb
 Content\ClearBlock.xnb
 Content\gun1.xnb
@@ -21,14 +19,16 @@ Content\2shot.xnb
 Content\3shot.xnb
 Content\5shot.xnb
 Content\Snake.xnb
-Content\seal.xnb
 Content\grasstexter.xnb
+Content\PAUSEING.xnb
+Content\SpriteFont.xnb
+Content\music.xnb
 Content\KPM Music - Into The Fire.xnb
 Content\Great music for gaming (2 hours).xnb
-Content\Dog Howling At Moon-SoundBible.com-1369876823.xnb
-Content\Quack Quack-SoundBible.com-620056916.xnb
-Content\Two Snake Hiss Sound Effects (online-audio-converter.com).xnb
-Content\Pig sound effect pig in a mood squeal sounds (online-audio-converter.com).xnb
+Content\DogSound.xnb
+Content\DuckSound.xnb
+Content\Snakesound.xnb
+Content\PigSound.xnb
 Content\music.wma
 Content\KPM Music - Into The Fire.wma
 Content\Great music for gaming (2 hours).wma

@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsGame3", "WindowsGame3\WindowsGame3\WindowsGame3.csproj", "{F74FABFE-EB8C-4F7E-8762-A6003D4951CB}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "WindowsGame3Content", "WindowsGame3\WindowsGame3Content\WindowsGame3Content.contentproj", "{58E29FC4-B88A-4393-91CE-EE146766E3F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsGame3Content", "WindowsGame3\WindowsGame3Content\WindowsGame3Content.contentproj", "{58E29FC4-B88A-4393-91CE-EE146766E3F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

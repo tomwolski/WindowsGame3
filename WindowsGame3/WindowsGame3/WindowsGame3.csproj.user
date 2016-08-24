@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>C:\Users\Tommy Wolski\Desktop\GameDemo2\|C:\Users\Tommy Wolski\Desktop\GameDemo\|publish\</PublishUrlHistory>
-    <InstallUrlHistory />
+    <PublishUrlHistory>D:\|\\localhost\Desktop\Revenge of the Duck\|C:\Users\Tommy Wolski\Desktop\Revenge of the Duck\|C:\Users\Tommy Wolski\Desktop\GameDemo2\|C:\Users\Tommy Wolski\Desktop\GameDemo\</PublishUrlHistory>
+    <InstallUrlHistory>\\localhost\Desktop\Revenge of the Duck\</InstallUrlHistory>
     <SupportUrlHistory />
     <UpdateUrlHistory />
     <BootstrapperUrlHistory>http://localhost:57610/WindowsGame3</BootstrapperUrlHistory>

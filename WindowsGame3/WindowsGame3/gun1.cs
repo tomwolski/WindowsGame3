@@ -13,21 +13,83 @@ namespace WindowsGame3
 {
     class gun1: Obj
     {
-       // public static gun1 Gun1;
+        /**/
+        /*
+      gun1 :Obj
+
+        NAME
+
+                gun1 - A class that is in charge of Determining the attributes of a gun1 object.
+
+        SYNOPSIS
+         
+
+        DESCRIPTION
+
+     
+                This class will attempt to Represent the gun2 object. Every time a gun2 object it will be created using the
+                attributes defined :
+                        Solid(True) -cant be passed through by certain objects
+                        position - pos (Will be a zero vector until created by the BoxSpawning class)
+                        spritename - gun1 ( the Reference to the WindowsGame3Content picture)
+             
+     
+
+        AUTHOR
+
+                Thomas Wolski 
+
+        DATE
+
+                1:20pm 8/14/2016
+
+        */
+        /**/
+
+
+      
         public gun1(Vector2 pos)
             : base(pos)
         {
             position = pos;
             spriteName = "gun1";
             alive = true;
-            //Gun1 = this;
+            
 
         }
-        
-        public override void move()
+        /**/
+        /*
+             move
+
+        NAME
+
+                move - A function called when the game has determined that game logic needs to be processed. 
+                This includes change of the game state,  processing user input, updating of simulation data. 
+                Overrided this method with game-specific logic.
+
+        SYNOPSIS   
+
+        DESCRIPTION
+
+                    When this Function is called it first checks if the main player's distance is less then 32 pixels ( the size of the main player)
+                    away from then gun1 object and also it is alive. If it is alive the gun attributes are reset to default, then changed based on
+                    the gun1 attributes (fire rate and ammo change). Then sets the alive value to false making the gun1 object not displayed anymore
+         
+                    
+        AUTHOR
+
+                Thomas Wolski 
+
+        DATE
+
+                1:25pm 8/14/2016
+
+        */
+        /**/
+        public override void Move()
         {
 
-            if (distance(position.X, position.Y, MainPlayer.Player.position.X, MainPlayer.Player.position.Y) < 32 && alive == true)
+            if (Distance(position.X, position.Y, MainPlayer.Player.position.X, MainPlayer.Player.position.Y) < 32 && alive == true)
             {
                 MainPlayer.bspd = MainPlayer.Standeredbspd;
                 MainPlayer.maxAmmo = MainPlayer.StanderedmaxAmmo;
@@ -42,36 +104,53 @@ namespace WindowsGame3
                 MainPlayer.rate = 1;
                 MainPlayer.ammo = 500;
                 alive = false;
-                Bullet.Gunname = "2Guns";
+                
 
-                color = Color.BurlyWood;
+               
             }
 
-            base.move();
+            base.Move();
         }
 
 
+        /**/
+        /*
+             Distance
 
+        NAME
 
-        public static float distance(float x1, float y1, float x2, float y2)
+                Distance - A function called to determine how far away one object is to another object.
+
+        SYNOPSIS   
+
+        DESCRIPTION
+
+                    When this Function is called it takes the x position from one object and the x position of another object
+                    to form a new x^2 position and takes the y position from one object and the y position from 
+                    another object to form a new y^2 position After then it takes the Sqrt of the two added together to get
+                    the distance between the two objects. (Pythagorean theorem)
+                   
+                    
+        AUTHOR
+
+                Thomas Wolski 
+
+        DATE
+
+                1:35pm 8/14/2016
+
+        */
+        /**/
+
+        private float Distance(float x1, float y1, float x2, float y2)
         {
+            //a *a +b *b = c*c
             float xRectangle = (x1 - x2) * (x1 - x2);
             float yRectangle = (y1 - y2) * (y1 - y2);
             double zRectangle = xRectangle + yRectangle;
             float dist = (float)Math.Sqrt(zRectangle);
             return dist;
 
-        }
-
-
-        public void Draw(SpriteBatch spritebatch)
-        {
-
-            spritebatch.Begin();
-
-
-
-            spritebatch.End();
         }
 
     }

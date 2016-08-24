@@ -23,7 +23,7 @@ namespace WindowsGame3
         private int waveTimer = 0;
         private int waveTime = 800 * 1;
 
-        private int numberofGuys = 1;
+        public static int numberofGuys = 1;
         private int x = 0;
 
 
@@ -41,7 +41,7 @@ namespace WindowsGame3
 
         }
 
-        public override void move()
+        public override void Move()
         {
             wave1();
 

@@ -11,6 +11,48 @@ using Microsoft.Xna.Framework.Media;
 
 namespace WindowsGame3
 {
+
+    /**/
+    /*
+  Bullet :Obj
+
+    NAME
+
+            Bullet - A class that is in charge of Determining the attributes of a Bullet object.
+
+    SYNOPSIS
+     
+        ConstbulletDistance - A constant integer that always keeps the Basic Distance a Bullet can travel from the MainPlayer
+          bulletDistance - A static integer that can be changed based on which gun object has been picked up that also represents the Basic Distance a Bullet can travel from the MainPlayer
+          damagedelt - A private integer that sets the total amount of damage the specific Bullet object has.
+          gundamage - A static integer that can be changed based on which gun object has been picked up, represents the amount of damage that each Bullet does.
+          Constgundamage - A constant integer that always keeps the Basic damage a Bullet can do
+        public static string Gunname = "yellowBall";
+     
+
+    DESCRIPTION
+
+ 
+            This class will attempt to Represent the Bullet object. Every time a Bullet object it will be created using the
+            attributes defined :
+                    Solid  - True
+                    position - pos (Will be a zero vector until the Bullet is created)
+                    spritename - yellowBall ( the Reference to the WindowsGame3Content picture)
+                    damagedelt - the total amount of damage the specific Bullet object has
+            The bullet will then travel in the detection shot checking if there is a collision with another object specified in the game or has reached    
+            its maximum distance traveled before making it self not alive anymore.
+     
+
+    AUTHOR
+
+            Thomas Wolski 
+
+    DATE
+
+            7:00pm 8/9/2016
+
+    */
+    /**/
     class Bullet :Obj
     {
         public const int ConstbulletDistance = 500;
@@ -32,7 +74,7 @@ namespace WindowsGame3
             this.damagedelt = damagedelt;
             
         }
-        
+        // a Get and Set for the damage to be done by the bullet created
         public int damage
         {
             set {
@@ -44,8 +86,46 @@ namespace WindowsGame3
         }
 
 
+ 
+        /**/
+        /*
+             move
 
-        public override void move()
+        NAME
+
+                move - A function called when the game has determined that game logic needs to be processed. 
+                This includes change of the game state,  processing user input, updating of simulation data. 
+                Overrided this method with game-specific logic.
+
+        SYNOPSIS
+     
+               Zero arguments passed
+     
+
+        DESCRIPTION
+
+                    When this Function is called it will first check if Bullet object attribute alive is true. if it is not it will be return 
+                    saving time and increasing performance. Next it check if the Bullet object has come in connect with the side of a wall object. 
+                    To ensure the bullet object becomes set to not alive faster when coming in contact with the wall it checks and see's if it has 
+                    hit either side of the wall. If the Bullet does not come in contact with a wall it then will check next if the Bullet has come in contact 
+                    with a breakablewall. If this is true then the bullet's alive attribute will be set to false, while the breakablewall object will get its
+                    health reduced by that amount. Then the Bullet object will check if it collides with an enemy object. There are three different types of 
+                    enemies in the game, this means that it checks one at a time checking for a collision, if a collision occurs between the Bullet object and 
+                    any one of the enemies the Bullet attribute once again will be set to false while dealing that much damage to that specific enemy object.
+                    Lastly it will check if the distance of the bullet and the MainPlayer. If position of the MainPlayer and the bullet is larger then the
+                    max distance that Bullet can go it will then set the alive attribute to false, the distance will vary based on what gun type is being used.
+
+        AUTHOR
+
+                Thomas Wolski 
+
+        DATE
+
+                7:30pm 8/9/2016
+
+        */
+        /**/
+        public override void Move()
         {
             
             if (!alive) 
@@ -53,57 +133,56 @@ namespace WindowsGame3
                 return; 
             }
             //hit wall
-            if (collision(new Vector2(-5, 0), new wall(new Vector2(0, 0))))
+            if (Collision(new Vector2(-11, 0), new wall(new Vector2(0, 0))))
             {
                 
                 alive = false;
             }
 
-            else if (collision(new Vector2(5, 0), new wall(new Vector2(0, 0))))
+            else if (Collision(new Vector2(11, 0), new wall(new Vector2(0, 0))))
             {
 
                 alive = false;
             }
 
-            else if (collision(new Vector2(0, 5), new wall(new Vector2(0, 0))))
+            else if (Collision(new Vector2(0, 11), new wall(new Vector2(0, 0))))
             {
 
                 alive = false;
             }
 
-            else if (collision(new Vector2(0, -5), new wall(new Vector2(0, 0))))
+            else if (Collision(new Vector2(0, -11), new wall(new Vector2(0, 0))))
             {
 
                 alive = false;
             }
             // hits breakablewall
-            
-            if (collision(new Vector2(-11, 0), new breakablewall(new Vector2(0, 0))))
+
+            if (Collision(new Vector2(0, 0), new breakablewall(new Vector2(0, 0))))
             {
                 alive = false;
-                Obj wa = collision(new breakablewall(new Vector2(0, 0)));
+                Obj wa = Collision(new breakablewall(new Vector2(0, 0)));
                 if (wa.GetType() == typeof(breakablewall))
                 {
                     
                     breakablewall w = (breakablewall)wa;
-                    alive = false;
-                    w.damage(gundamage);
+                    w.Damage(gundamage);
                 }
                
             }
 
             //hits enemy
-            Obj o = collision ( new Enemy(new Vector2(0,0)));
+            Obj o = Collision(new Enemy(new Vector2(0, 0)));
             if (o.GetType()== typeof(Enemy))
             {
                 Enemy e = (Enemy)o;
                 alive = false;
 
-                e.damage(gundamage);
+                e.Damage(gundamage);
             }
 
             //hits enemy2
-            Obj o2 = collision(new Enemy2(new Vector2(0, 0)));
+            Obj o2 = Collision(new Enemy2(new Vector2(0, 0)));
             if (o2.GetType() == typeof(Enemy2))
             {
                 Enemy2 e2 = (Enemy2)o2;
@@ -113,13 +192,13 @@ namespace WindowsGame3
             }
 
             //hits enemy3
-            Obj o3 = collision(new Enemy3(new Vector2(0, 0)));
+            Obj o3 = Collision(new Enemy3(new Vector2(0, 0)));
             if (o3.GetType() == typeof(Enemy3))
             {
                 Enemy3 e3 = (Enemy3)o3;
                 alive = false;
 
-                e3.damage(gundamage);
+                e3.Damage(gundamage);
             }
 
             //del bullet if outside the set distance
@@ -129,7 +208,9 @@ namespace WindowsGame3
             {
                 alive = false;
             }
-            base.move();
+
+            //give control to xna ,letting it know I am done with the update 
+            base.Move();
         }
     }
 }
