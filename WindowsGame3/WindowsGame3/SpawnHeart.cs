@@ -26,7 +26,7 @@ namespace WindowsGame3
         spawnTimer - A counter to determine how long to wait before spawning the Heart
         spawnTime - The amount of time it should take for the next Heart to spawn (about 5 seconds)
         waveTimer - A counter to determine the new position for the Heart object to be created at on the canvas
-        waveTime  - The amount of time it should take for increasing/resetting the number of Heart that can spawn (about 12 seconds)
+        waveTime  - The amount of time it should take for increasing/resetting the number of Heart that can spawn
         numberofGuys - The total number of Heart's that will be created on that iteration of the loop
         MakeAlive -The Number of Heart that going to become "alive" in the loop, in this case there will many alive on the canvas
         newX - Used for Generating the random X coordinates for the Heart spawn
@@ -115,7 +115,7 @@ namespace WindowsGame3
         DESCRIPTION
 
                 This function uses the arguments that are creating in the class to determine the time it should take for each Heart object to spawn/be created.
-                Every time the game updates Wave1 is called, always increasing the SpawnTimer. When SpawnTimer becomes greater or equal to spawn time (about 5 seconds), 
+                Every time the game updates Wave1 is called, always increasing the SpawnTimer. When SpawnTimer becomes greater or equal to spawn time , 
                 It will proceed to check the objects in the object list located in the items class for an object that has the type of Heart and if is not alive.
                 Once an object is found the program will move to the while loop were it determines how many Heart's to make alive and make solid along with the
                 a random x, and y coordinates located inside the game area will then be its spawn location. However if those random x and y coordinates are the same location as the MainPLayer
@@ -196,7 +196,7 @@ namespace WindowsGame3
         DESCRIPTION
 
                 This function uses the arguments that are created in the class to determine the time it should take for each heart object to be created.
-                Every time the game updates Wave1 is called,  increasing the waveTimer overtime. When waveTimer becomes greater or equal to waveTime (about 12 seconds), 
+                Every time the game updates Wave1 is called,  increasing the waveTimer overtime. When waveTimer becomes greater or equal to waveTime, 
                 The number of heart objects that are creating stays the same, also Nextwave resets the number of heart objects that will spawn the next time wave1 meets its
                 requirements to create more heart objects (there will be more then one heart spawned at a  time).
                  

@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WindowsGame3.breakablewall">
+    <Position X="23.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABCAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>breakablewall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Bullet">
+    <Position X="23" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAIAAgAAAAAAAQAQAAQAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Camera">
+    <Position X="24" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAIAAAAAgEACAIBQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.ControlVeiw">
+    <Position X="26" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIAIAAAgAAAEAAAEAAQAAgAACAgkAAAggCAAQ=</HashCode>
+      <FileName>ControlVeiw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Enemy">
+    <Position X="26.5" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACBCAAIAAAAAABKAAACEAAAAAAABAAEAAAAgAAAg=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Enemy2">
+    <Position X="27" Y="29" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAIAAgAIABKABAAQAAAAAAABAAEAAAAgAAAg=</HashCode>
+      <FileName>Enemy2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Enemy3">
+    <Position X="25" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABCAAIAABAAABKAAAAgAAAAAAABAAEAAAAgAAAg=</HashCode>
+      <FileName>Enemy3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Game1">
+    <Position X="33" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYABEAQAgCRAwEgAAAAgAQYAAAQEAqoAAAAAQAAIAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Object" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsGame3.gun1">
+    <Position X="24.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>gun1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.gun2">
+    <Position X="22.5" Y="41.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>gun2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.gun3">
+    <Position X="27" Y="41.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>gun3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Gun4ShootFive">
+    <Position X="28.25" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Gun4ShootFive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Gun4ShootThree">
+    <Position X="28.5" Y="29" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Gun4ShootThree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Gun4ShootTwo">
+    <Position X="26.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Gun4ShootTwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Heart">
+    <Position X="25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Heart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.items">
+    <Position X="26" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>items.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.MainMenu">
+    <Position X="29.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIAIAAAgAAAEAAAEAAQAAgAACAgkAAAgoCAAQ=</HashCode>
+      <FileName>MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.MainPlayer">
+    <Position X="28.5" Y="41" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAFCAAIAwBAAAACAAAAAKICgQQAhAAJhAgQAgAAA=</HashCode>
+      <FileName>MainPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.mousechange">
+    <Position X="29.75" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mousechange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Obj">
+    <Position X="31.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAIAAAgEABACAIEACBAgAAQCAABAAAAAAAAU=</HashCode>
+      <FileName>Obj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Program">
+    <Position X="35.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Game1" Type="WindowsGame3.Game1" ManuallyRouted="true">
+      <Path>
+        <Point X="35.5" Y="1.052" />
+        <Point X="35.17" Y="1.052" />
+        <Point X="35.17" Y="1.836" />
+        <Point X="34.83" Y="1.836" />
+        <Point X="34.83" Y="1.052" />
+        <Point X="34.5" Y="1.052" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Game1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsGame3.ScoreView">
+    <Position X="27.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIAIAAAgAAAEAIAEAAQAAgAACAgkAAAAgCAAQ=</HashCode>
+      <FileName>ScoreView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.slowBlock">
+    <Position X="27.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>slowBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.SpawnGun1">
+    <Position X="24" Y="41.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAIAAAAAACAAAAAEAACAAAAAAAGUBAAAEACA=</HashCode>
+      <FileName>SpawnGun1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.SpawnGun2">
+    <Position X="22" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAIAAAAAACAAAAAEAACAAAAAAAGUBAAAEACA=</HashCode>
+      <FileName>SpawnGun2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.SpawnGun3">
+    <Position X="24" Y="29" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAIAAAAAACAAAAAEAACAAAAAAAGUBAAAEACA=</HashCode>
+      <FileName>SpawnGun3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.SpawnGun4">
+    <Position X="22" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAIAAAAAACAAAAAEAACAAAAAAAGUBAAAEACA=</HashCode>
+      <FileName>SpawnGun4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.SpawnGun5">
+    <Position X="28" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAIAAAAAACAAAIAEAAAAAAAAAAGUBAAAEACA=</HashCode>
+      <FileName>SpawnGun5.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.SpawnGun6">
+    <Position X="26.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAIAAAAAACAAAIAEAAAAAAAAAAGUBAAAEACA=</HashCode>
+      <FileName>SpawnGun6.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.SpawnHeart">
+    <Position X="29" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAIAAAAAACAAAAAAAAAAACAAAAGVBAAAEACA=</HashCode>
+      <FileName>SpawnHeart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Spawning">
+    <Position X="25.5" Y="41.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAIAAgAKAAAAAACAEAAAEQACAAAAAAAGQAAAAAACA=</HashCode>
+      <FileName>Spawning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Spawning2">
+    <Position X="23.5" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAIAAAAAACAAAAEGgACAAAAAAAGQBAAAABGA=</HashCode>
+      <FileName>Spawning2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.Spawning3">
+    <Position X="25.5" Y="29" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAIAAAAAACAAIAIFAACAAAAAAAGQBAAAAACA=</HashCode>
+      <FileName>Spawning3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.SpawnSlowBlock">
+    <Position X="23.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAIAAAAAACAAAAAEAACAAAAAAAGUAAAAEACA=</HashCode>
+      <FileName>SpawnSlowBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.SpawningSpeedBlock">
+    <Position X="29.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAIAAAAAACAAAAAEAACAAAAAAAGUBAAAEACA=</HashCode>
+      <FileName>SpawnSpeedBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.speedBlock">
+    <Position X="28" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>speedBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.StaticRandom">
+    <Position X="24" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="WindowsGame3.StaticRandom.StaticRandomNumber">
+        <TypeIdentifier>
+          <NewMemberFileName>StaticRandom.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticRandom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.View">
+    <Position X="27.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsGame3.wall">
+    <Position X="25" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Xna.Framework.Game">
+    <Position X="35.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Object">
+    <Position X="27.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

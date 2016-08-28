@@ -27,7 +27,7 @@ namespace WindowsGame3
             spawnTimer1 - A counter to determine how long to wait before Spawning3 the Enemy3 (the Snake)
             spawnTime1 - The amount of time it should take for the next Enemy3 to spawn (about 5 seconds)
             waveTimer1 - A counter to determine the new position for the Enemy3 object to be created at on the canvas
-            waveTime1  - The amount of time it should take for increasing/resetting the number of Enemy3 that can spawn (about 12 seconds)
+            waveTime1  - The amount of time it should take for increasing/resetting the number of Enemy3 that can spawn 
             numberofGuys - The total number of Enemy3's that will be created on that iteration of the loop
             makeAlive -The Number of Enemy3 that going to become "alive" in the loop, in this case there will only be one alive on the canvas
             totalSpawned - a running total of all Enemy3 objects created during the current game
@@ -116,7 +116,7 @@ namespace WindowsGame3
         DESCRIPTION
 
                 This function uses the arguments that are creating in the class to determine the time it should take for each Enemy3 object to spawn/be created.
-                Every time the game updates Wave1 is called, always increasing the SpawnTimer. When SpawnTimer becomes greater or equal to spawn time (about 5 seconds), 
+                Every time the game updates Wave1 is called, always increasing the SpawnTimer. When SpawnTimer becomes greater or equal to spawn time, 
                 It will proceed to check the objects in the object list located in the items class for an object that has the type of Enemy3 and if is not alive.
                 Once an object is found the program will move to the while loop were it determines how many Enemy3's to make alive and make solid along with the
                 a random x, and y coordinates located inside the game area will then be its spawn location. However if those random x and y coordinates are the same location as the MainPLayer
@@ -196,7 +196,7 @@ namespace WindowsGame3
         DESCRIPTION
 
                 This function uses the arguments that are created in the class to determine the time it should take for each Enemy3 object to be created.
-                Every time the game updates Wave1 is called,  increasing the waveTimer overtime. When waveTimer becomes greater or equal to waveTime (about 12 seconds), 
+                Every time the game updates Wave1 is called,  increasing the waveTimer overtime. When waveTimer becomes greater or equal to waveTime , 
                 The number of Enemy3 objects that are creating stays the same, also Nextwave resets the number of Enemy3 objects that will spawn the next time wave1 meets its
                 requirements to create more Enemy3 objects. waveTimer will never be incremented until the next wave starts, allowing the game to have a constant of Enemy3 objects created.
                  

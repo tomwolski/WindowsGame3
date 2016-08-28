@@ -26,7 +26,7 @@ namespace WindowsGame3
         SYNOPSIS
      
             spawnTimer - A counter to determine how long to wait before spawning the speedBlock
-            spawnTime - The amount of time it should take for the next speedBlock to spawn (about 5 seconds)
+            spawnTime - The amount of time it should take for the next speedBlock to spawn 
             waveTimer - A counter to determine the new position for the speedBlock object to be created at on the canvas
             waveTime  - The amount of time it should take for increasing/resetting the number of speedBlock that can spawn 
             numberofGuys - The total number of speedBlock's that will be created on that iteration of the loop

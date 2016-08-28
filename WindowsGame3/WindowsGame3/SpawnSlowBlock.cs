@@ -27,7 +27,7 @@ namespace WindowsGame3
             spawnTimer - A counter to determine how long to wait before spawning the slowBlock
             spawnTime - The amount of time it should take for the next slowBlock to spawn (about 5 seconds)
             waveTimer - A counter to determine the new position for the slowBlock object to be created at on the canvas
-            waveTime  - The amount of time it should take for increasing/resetting the number of slowBlock that can spawn (about 12 seconds)
+            waveTime  - The amount of time it should take for increasing/resetting the number of slowBlock that can spawn 
             numberofGuys - The total number of slowBlock's that will be created on that iteration of the loop
             makeAlive -The Number of slowBlock that going to become "alive" in the loop, in this case there will 20 alive on the canvas at a time
             newX - Used for Generating the random X coordinates for the slowBlock spawn

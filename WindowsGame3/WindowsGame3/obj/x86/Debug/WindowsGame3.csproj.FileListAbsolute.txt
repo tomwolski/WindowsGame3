@@ -1,5 +1,3 @@
-C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.csprojResolveAssemblyReference.cache
 C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\duckfromabove.xnb
 C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\duckHair.xnb
 C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\yellowBall.xnb
@@ -38,6 +36,8 @@ C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\Windows
 C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Revenge of the Duck.application
 C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Revenge of the Duck.exe
 C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Revenge of the Duck.pdb
+C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.csprojResolveAssemblyReference.cache
+C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\Revenge of the Duck.TrustInfo.xml
 C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\Revenge of the Duck.exe.manifest
 C:\Users\Tommy Wolski\Documents\Visual Studio 2013\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\Revenge of the Duck.application

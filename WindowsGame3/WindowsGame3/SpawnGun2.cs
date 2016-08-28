@@ -26,7 +26,7 @@ namespace WindowsGame3
         spawnTimer - A counter to determine how long to wait before spawning the gun2
         spawnTime - The amount of time it should take for the next gun2 to spawn (about 5 seconds)
         waveTimer - A counter to determine the new position for the gun2 object to be created at on the canvas
-        waveTime  - The amount of time it should take for increasing/reseting the number of gun2 that can spawn (about 12 seconds)
+        waveTime  - The amount of time it should take for increasing/reseting the number of gun2 that can spawn 
         numberofGuys - The total number of gun2's that will be created on that iteration of the loop
         MakeAlive -The Number of gun2 that going to become "alive" in the loop, in this case there will only be one alive on the canvas
         newX - Used for Generating the random X coordinates for the gun2 spawn
@@ -198,7 +198,7 @@ namespace WindowsGame3
         DESCRIPTION
 
                 This function uses the arguments that are created in the class to determine the time it should take for each gun2 object to be created.
-                Every time the game updates Wave1 is called,  increasing the waveTimer overtime. When waveTimer becomes greater or equal to waveTime (about 12 seconds), 
+                Every time the game updates Wave1 is called,  increasing the waveTimer overtime. When waveTimer becomes greater or equal to waveTime, 
                 The number of gun2 objects that are creating stays the same, also Nextwave resets the number of gun2 objects that will spawn the next time wave1 meets its
                 requirements to create more gun2 objects (there will never be more then one gun2 spawned).
                  

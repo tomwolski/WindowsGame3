@@ -115,7 +115,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>6YxVadwqXvFlA30PyY5nfRYwuA0=</dsig:DigestValue>
+        <dsig:DigestValue>sTzUqhIvYVND594VUiAkexreSTo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -242,7 +242,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>QExn/jGyH3FVddVlQfMQxSqKtAY=</dsig:DigestValue>
+      <dsig:DigestValue>+fuwNjwlPHpvSrZXRSRoIvC3xsg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Great music for gaming (2 hours).xnb" size="150">
@@ -314,7 +314,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>6+bQtCwDF53ZyhUE0/0sus4exaE=</dsig:DigestValue>
+      <dsig:DigestValue>2d6VOXMz54GvvGnB4ta9Uvfu3Cc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\KPM Music - Into The Fire.xnb" size="143">
@@ -332,7 +332,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>ioJvHnq3gYAxQAoZxP+E8PHI8T4=</dsig:DigestValue>
+      <dsig:DigestValue>9tYKQsclzhWsCZeLZO+YeWsf2Wc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\music.xnb" size="123">

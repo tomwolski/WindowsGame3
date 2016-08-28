@@ -62,7 +62,7 @@ namespace WindowsGame3
             SoundEffect.MasterVolume = .01f; // sets the initial volume of the music
         }
 
-        public Microsoft.Xna.Framework.Game Game
+        public System.Object Object
         {
             get
             {

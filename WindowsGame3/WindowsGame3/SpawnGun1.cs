@@ -201,7 +201,7 @@ namespace WindowsGame3
 
 
                 This function uses the arguments that are created in the class to determine the time it should take for each gun1 object to be created.
-                Every time the game updates Wave1 is called,  increasing the waveTimer overtime. When waveTimer becomes greater or equal to waveTime (about 12 seconds), 
+                Every time the game updates Wave1 is called,  increasing the waveTimer overtime. When waveTimer becomes greater or equal to waveTime , 
                 The number of gun1 objects that are creating stays the same, also Nextwave resets the number of gun1 objects that will spawn the next time wave1 meets its
                 requirements to create more gun1 objects (there will never be more then one gun1 spawned).
     
