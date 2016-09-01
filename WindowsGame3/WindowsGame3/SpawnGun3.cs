@@ -23,7 +23,7 @@ namespace WindowsGame3
     SYNOPSIS
      
         spawnTimer - A counter to determine how long to wait before spawning the gun3
-        spawnTime - The amount of time it should take for the next gun3 to spawn (about 5 seconds)
+        spawnTime - The amount of time it should take for the next gun3 to spawn  
         waveTimer - A counter to determine the new position for the gun3 object to be created at on the canvas
         waveTime  - The amount of time it should take for increasing/reseting the number of gun3 that can spawn 
         numberofGuys - The total number of gun3's that will be created on that iteration of the loop
@@ -155,8 +155,8 @@ namespace WindowsGame3
                             o.alive = true;
                             newX = StaticRandom.StaticRandomNumber.Rand(-745, 745);
                             newY = StaticRandom.StaticRandomNumber.Rand(65, 745);
-                            float currentX = (MainPlayer.Player.position.X) + 32;
-                            float currentY = (MainPlayer.Player.position.Y) + 32;
+                            float currentX = (MainPlayer.Player.position.X);
+                            float currentY = (MainPlayer.Player.position.Y);
 
                             if (o.position.X > currentX && o.position.Y > currentY)
                             {

@@ -26,7 +26,7 @@ namespace WindowsGame3
 
     DESCRIPTION
 
-            This class will attempt to Represent the view of the game. Every time the MainPlayer moves on the canvas it makes sure to 
+            This class will attempt to represent the view of the game. Every time the MainPlayer moves on the canvas it makes sure to 
             follow the Mainplayer While keeping itself rotated and zoomed properly. 
             
             position- the position of the cameras view based on the room size.

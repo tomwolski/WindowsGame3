@@ -27,8 +27,8 @@ namespace WindowsGame3
         DESCRIPTION
 
      
-                This class will attempt to Represent the speedBlock object. Every time a speedBlock object it will be created using the
-                attributes defined :
+                This class will attempt to represent the speedBlock object. Every time a speedBlock object is created using the
+            attributes defined :
                         solid - can not be passed though by the Mainplayer and bullet objects
                         position - the location it will be created on the canvas
                         spriteName = "slowblock";( the Reference to the WindowsGame3Content picture)

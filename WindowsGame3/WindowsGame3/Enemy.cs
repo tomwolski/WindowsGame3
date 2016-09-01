@@ -32,7 +32,7 @@ namespace WindowsGame3
 
         NAME
 
-                Enemy - A class that is in charge of when and were a Enemy object is created.
+                Enemy - A class that is in charge of when and were an Enemy object is created.
 
         SYNOPSIS
      
@@ -46,7 +46,7 @@ namespace WindowsGame3
      
 
         DESCRIPTION
-            This class will attempt to create a Enemy object at a random location. The Enemy
+            This class will attempt to create an Enemy object at a random location. The Enemy
             is given the following attributes:
             position - the location it will be created on the canvas
             spriteName = "Realdoggy" ( the Reference to the WindowsGame3Content picture) 

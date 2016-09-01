@@ -38,7 +38,7 @@ namespace WindowsGame3
         DESCRIPTION
 
      
-                This class will attempt to create a gun2 object at a random x and y coordinates using a BoxSpawning object. This BoxSpawning object
+                This class will attempt to create a breakablewall object at a random x and y coordinates using a BoxSpawning object. This BoxSpawning object
                 uses the obj class to define its attributes. Where it is calling Move to update each time.
                 BoxSpawning has the following attributes:
                 position - the location it will be created on the canvas

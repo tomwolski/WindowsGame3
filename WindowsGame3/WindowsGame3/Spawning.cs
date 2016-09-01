@@ -18,12 +18,12 @@ namespace WindowsGame3
 
     NAME
 
-            Spawning - A class that is in charge of when and were a Enemy object will spawn/be created.
+            Spawning - A class that is in charge of when and were an Enemy object will spawn/be created.
 
     SYNOPSIS
      
         spawnTimer1 - A counter to determine how long to wait before spawning the Enemy (the Dogs)
-        spawnTime1 - The amount of time it should take for the next Enemy to spawn (about 5 seconds)
+        spawnTime1 - The amount of time it should take for the next Enemy to spawn  
         waveTimer1 - A counter to determine the new position for the Enemy object to be created at on the canvas
         waveTime1  - The amount of time it should take for increasing/resetting the number of Enemy that can spawn 
         numberofGuys - The total number of Enemy's that will be created on that iteration of the loop
@@ -166,8 +166,8 @@ namespace WindowsGame3
                                 o.alive = true;
                                 newX = StaticRandom.StaticRandomNumber.Rand(-745, 745);
                                 newY = StaticRandom.StaticRandomNumber.Rand(65, 745);
-                                float currentX = (MainPlayer.Player.position.X) + 32;
-                                float currentY = (MainPlayer.Player.position.Y) + 32;
+                                float currentX = (MainPlayer.Player.position.X);
+                                float currentY = (MainPlayer.Player.position.Y);
 
                                 if (o.position.X > currentX && o.position.Y > currentY)
                                 {

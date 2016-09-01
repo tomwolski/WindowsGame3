@@ -24,9 +24,9 @@ namespace WindowsGame3
     SYNOPSIS
      
         spawnTimer - A counter to determine how long to wait before spawning the gun1
-        spawnTime - The amount of time it should take for the next gun1 to spawn (about 5 seconds)
+        spawnTime - The amount of time it should take for the next gun1 to spawn  
         waveTimer - A counter to determine the new position for the gun1 object to be created at on the canvas
-        waveTime  - The amount of time it should take for increasing/reseting the number of gun1 that can spawn (about 12 seconds)
+        waveTime  - The amount of time it should take for increasing/reseting the number of gun1 that can spawn  
         numberofGuys - The total number of gun1's that will be created on that iteration of the loop
         MakeAlive -The Number of gun1 that going to become "alive" in the loop, in this case there will only be one alive on the canvas
         newX - Used for Generating the random X coordinates for the gun1 spawn
@@ -36,7 +36,7 @@ namespace WindowsGame3
     DESCRIPTION
 
      
-            This class will attempt to create a gun2 object at a random x and y coordinates using a SpawnGun1 object. This SpawnGun1 object
+            This class will attempt to create a gun1 object at a random x and y coordinates using a SpawnGun1 object. This SpawnGun1 object
             uses the obj class to define its attributes. Where it is calling Move to update each time.
             SpawnGun1 has the following attributes:
             position - the location it will be created on the canvas
@@ -159,9 +159,9 @@ namespace WindowsGame3
 
                              newX = StaticRandom.StaticRandomNumber.Rand(-745, 745);
                              newY = StaticRandom.StaticRandomNumber.Rand(65, 745);
- 
-                            float currentX = (MainPlayer.Player.position.X) + 32;
-                            float currentY = (MainPlayer.Player.position.Y) + 32;
+
+                             float currentX = (MainPlayer.Player.position.X);
+                             float currentY = (MainPlayer.Player.position.Y);
 
                             if (o.position.X > currentX && o.position.Y > currentY)
                             {

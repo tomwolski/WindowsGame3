@@ -18,24 +18,24 @@ namespace WindowsGame3
 
     NAME
 
-            SpawnGun4 - A class that is in charge of when and were a gun4 object will spawn/be created.
+            SpawnGun4 - A class that is in charge of when and were a Gun4ShootTwo object will spawn/be created.
 
     SYNOPSIS
      
-        spawnTimer - A counter to determine how long to wait before spawning the gun4
-        spawnTime - The amount of time it should take for the next gun4 to spawn (about 5 seconds)
-        waveTimer - A counter to determine the new position for the gun4 object to be created at on the canvas
-        waveTime  - The amount of time it should take for increasing/resetting the number of gun4 that can spawn 
-        numberofGuys - The total number of gun4's that will be created on that iteration of the loop
-        MakeAlive -The Number of gun4 that going to become "alive" in the loop, in this case there will only be one alive on the canvas
-        newX - Used for Generating the random X coordinates for the gun4 spawn
-        newY- Used for Generating the random Y coordinates for the gun4 spawn
+        spawnTimer - A counter to determine how long to wait before spawning the Gun4ShootTwo
+        spawnTime - The amount of time it should take for the next Gun4ShootTwo to spawn  
+        waveTimer - A counter to determine the new position for the Gun4ShootTwo object to be created at on the canvas
+        waveTime  - The amount of time it should take for increasing/resetting the number of Gun4ShootTwo that can spawn 
+        numberofGuys - The total number of Gun4ShootTwo's that will be created on that iteration of the loop
+        MakeAlive -The Number of Gun4ShootTwo that going to become "alive" in the loop, in this case there will only be one alive on the canvas
+        newX - Used for Generating the random X coordinates for the Gun4ShootTwo spawn
+        newY- Used for Generating the random Y coordinates for the Gun4ShootTwo spawn
      
 
     DESCRIPTION
 
      
-            This class will attempt to create a gun4 object at a random x and y coordinates using a SpawnGun4 object. This SpawnGun4 object
+            This class will attempt to create a Gun4ShootTwo object at a random x and y coordinates using a SpawnGun4 object. This SpawnGun4 object
             uses the obj class to define its attributes. Where it is calling Move to update each time.
             SpawnGun4 has the following attributes:
             position - the location it will be created on the canvas
@@ -105,7 +105,7 @@ namespace WindowsGame3
 
         NAME
 
-                Wave1 - A function that is called every time the game updates. Used to determine when a gun4 will spawn.
+                Wave1 - A function that is called every time the game updates. Used to determine when a Gun4ShootTwo will spawn.
 
         SYNOPSIS
      
@@ -114,13 +114,13 @@ namespace WindowsGame3
 
         DESCRIPTION
 
-                This function uses the arguments that are creating in the class to determine the time it should take for each gun4 object to spawn/be created.
+                This function uses the arguments that are creating in the class to determine the time it should take for each Gun4ShootTwo object to spawn/be created.
                 Every time the game updates Wave1 is called, always increasing the SpawnTimer. When SpawnTimer becomes greater or equal to spawn time , 
-                It will proceed to check the objects in the object list located in the items class for an object that has the type of gun4 and if is not alive.
-                O e an object is found the program will move to the while loop were it determines how many gun4's to make alive ( in this case always 1) and make solid along with the
+                It will proceed to check the objects in the object list located in the items class for an object that has the type of Gun4ShootTwo and if is not alive.
+                O e an object is found the program will move to the while loop were it determines how many Gun4ShootTwo's to make alive ( in this case always 1) and make solid along with the
                 a random x, and y coordinates located inside the game area will then be its spawn location. However if those random x and y coordinates are the same location as the MainPLayer
-                then they will be randomly generated again for the gun4 object to spawn in a different location. Yes this Leaves a chance that the MainPlayer can have
-                this gun4 object spawn on top of them, this makes the game more random and interesting. 
+                then they will be randomly generated again for the Gun4ShootTwo object to spawn in a different location. Yes this Leaves a chance that the MainPlayer can have
+                this Gun4ShootTwo object spawn on top of them, this makes the game more random and interesting. 
     
 
         AUTHOR
@@ -157,8 +157,8 @@ namespace WindowsGame3
                             o.alive = true;
                             newX = StaticRandom.StaticRandomNumber.Rand(-745, 745);
                             newY = StaticRandom.StaticRandomNumber.Rand(65, 745);
-                            float currentX = (MainPlayer.Player.position.X) + 32;
-                            float currentY = (MainPlayer.Player.position.Y) + 32;
+                            float currentX = (MainPlayer.Player.position.X);
+                            float currentY = (MainPlayer.Player.position.Y);
 
                             if (o.position.X > currentX && o.position.Y > currentY)
                             {
@@ -186,7 +186,7 @@ namespace WindowsGame3
 
         NAME
 
-                nextwave - A function that is called every time the game updates. Used to determine when a gun4 creation number is increased.
+                nextwave - A function that is called every time the game updates. Used to determine when a Gun4ShootTwo creation number is increased.
 
         SYNOPSIS
      
@@ -195,10 +195,10 @@ namespace WindowsGame3
 
         DESCRIPTION
 
-                This function uses the arguments that are created in the class to determine the time it should take for each gun4 object to be created.
+                This function uses the arguments that are created in the class to determine the time it should take for each Gun4ShootTwo object to be created.
                 Every time the game updates Wave1 is called,  increasing the waveTimer overtime. When waveTimer becomes greater or equal to waveTime , 
-                The number of gun4 objects that are creating stays the same, also Nextwave resets the number of gun4 objects that will spawn the next time wave1 meets its
-                requirements to create more gun4 objects (there will never be more then one gun4 spawned).
+                The number of Gun4ShootTwo objects that are creating stays the same, also Nextwave resets the number of Gun4ShootTwo objects that will spawn the next time wave1 meets its
+                requirements to create more Gun4ShootTwo objects (there will never be more then one Gun4ShootTwo spawned).
                  
     
 

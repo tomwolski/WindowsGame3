@@ -27,10 +27,10 @@ namespace WindowsGame3
         DESCRIPTION
 
      
-                This class will attempt to Represent the Gun4ShootFive object. Every time a Gun4ShootFive object it will be created using the
-                attributes defined :
+                This class will attempt to Represent the Gun4ShootFive object. Every time a Gun4ShootFive object is created using the
+            attributes defined :
                          
-                        position - pos (Will be a zero vector until created by the BoxSpawning class)
+                        position - pos (Will be a zero vector until created by the SpawnGun6 class)
                         spritename - 5shot ( the Reference to the WindowsGame3Content picture)
              
      

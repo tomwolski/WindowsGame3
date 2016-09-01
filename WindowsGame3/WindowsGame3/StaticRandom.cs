@@ -39,6 +39,7 @@ namespace WindowsGame3
         AUTHOR
 
                 //http://stackoverflow.com/questions/19270507/correct-way-to-use-random-in-multithread-application?noredirect=1&lq=1
+         Thomas Wolski
 
         DATE
 

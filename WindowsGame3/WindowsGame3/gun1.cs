@@ -27,10 +27,10 @@ namespace WindowsGame3
         DESCRIPTION
 
      
-                This class will attempt to Represent the gun2 object. Every time a gun2 object it will be created using the
-                attributes defined :
+                This class will attempt to represent the gun1 object. Every time a gun1 object is created using the
+            attributes defined :
                         Solid(True) -cant be passed through by certain objects
-                        position - pos (Will be a zero vector until created by the BoxSpawning class)
+                        position - pos (Will be a zero vector until created by the SpawnGun1 class)
                         spritename - gun1 ( the Reference to the WindowsGame3Content picture)
              
      

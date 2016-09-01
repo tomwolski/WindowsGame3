@@ -30,7 +30,7 @@ namespace WindowsGame3
                 This class will attempt to Represent the Gun4ShootTwo object. Every time a Gun4ShootTwo object it will be created using the
                 attributes defined :
                          
-                        position - pos (Will be a zero vector until created by the BoxSpawning class)
+                        position - pos (Will be a zero vector until created by the SpawningGun4 class)
                         spritename - 2shot ( the Reference to the WindowsGame3Content picture)
              
      

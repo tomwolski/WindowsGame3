@@ -356,12 +356,19 @@ namespace WindowsGame3
             // just a nothing loop so the threads can be on the same page
             for (int a = 1; a < 100000000; a++)
             {
-                Enemy.DogsKilled = 0;
-                Enemy2.FudKilled = 0;
-                Enemy3.SnakesKilled = 0;
-                Spawning3.totalSpawned3 = 0;
-                Spawning2.totalSpawned2 = 0;
-                Spawning.totalSpawned = 0;
+
+                while (Enemy.DogsKilled != 0 && Enemy2.FudKilled != 0 && Enemy3.SnakesKilled != 0 &&
+                    Spawning3.totalSpawned3 != 0 && Spawning2.totalSpawned2 != 0 && Spawning.totalSpawned != 0)
+                {
+
+                    Enemy.DogsKilled = 0;
+                    Enemy2.FudKilled = 0;
+                    Enemy3.SnakesKilled = 0;
+                    Spawning3.totalSpawned3 = 0;
+                    Spawning2.totalSpawned2 = 0;
+                    Spawning.totalSpawned = 0;
+                }
+
             }
         }
         /**/

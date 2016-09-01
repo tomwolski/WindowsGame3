@@ -39,9 +39,9 @@ namespace WindowsGame3
 
         DESCRIPTION
 
-                    When this Function is called it first checks if the main player's distance is less then 25 pixels ( the size of the main player)
-                    away from then Heart object and also it is alive. if the heart object is alive the mainPlayers health will be increased by 10 while the
-                    heart changes to not alive.
+            When this Function is called, it first checks if the main player's distance is less then 25 pixels (the size of the Heart object) 
+         away from then Heart object and if it is alive. If the heart object is alive, the main player’s 
+         health will be increased by 10 while the heart changes to not alive.
                     
         AUTHOR
 
@@ -50,7 +50,7 @@ namespace WindowsGame3
         DATE
 
                  2:55pm 8/14/2016
-
+        
         */
         /**/
         public override void Move()
