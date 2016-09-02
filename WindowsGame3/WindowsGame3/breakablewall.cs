@@ -30,7 +30,7 @@ namespace WindowsGame3
     DESCRIPTION
 
      
-            This class will attempt to represent the breakablewall object. Every time a breakablewall object it will be created using the
+            This class will attempt to represent the breakablewall object. Every time a breakablewall object is created using the
             attributes defined :
                     Solid(True) -cant be passed through by certain objects
                     position - pos (Will be a zero vector until created by the BoxSpawning class)

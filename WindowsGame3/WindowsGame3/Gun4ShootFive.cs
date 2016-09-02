@@ -89,9 +89,9 @@ namespace WindowsGame3
                 MainPlayer.bspd = MainPlayer.Standeredbspd;
                 MainPlayer.maxAmmo = MainPlayer.StanderedmaxAmmo;
                 MainPlayer.ammo = MainPlayer.Standeredammo;
-                MainPlayer.rate = 20;
+                MainPlayer.rate = 30;
                 MainPlayer.fireTimer = MainPlayer.StanderedfireTimer;
-                Bullet.bulletDistance = 100;
+                Bullet.bulletDistance = 120;
                 Bullet.gundamage = 3;
                 MainPlayer.shoottwo = false;
                 MainPlayer.shootthree = false;

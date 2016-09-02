@@ -101,7 +101,7 @@ namespace WindowsGame3
                 MainPlayer.shootthree = false;
                 MainPlayer.shootfive = true;
 
-                MainPlayer.rate = 0.9F; ;
+                MainPlayer.rate = 3; 
                 MainPlayer.ammo = 1000;
                 Bullet.bulletDistance = 50;
                 alive = false;

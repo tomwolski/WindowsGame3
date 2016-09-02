@@ -32,7 +32,7 @@ namespace WindowsGame3
 
         NAME
 
-                Enemy3 - A class that is in charge of when and were a Enemy3 object is created.
+                Enemy3 - A class that is in charge of when and were an Enemy3 object is created.
 
         SYNOPSIS
      
